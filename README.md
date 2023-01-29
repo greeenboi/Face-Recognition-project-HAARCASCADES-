@@ -19,7 +19,7 @@ _We will be using the haarcascades method to detect faces in real time_ 🕶️
   3. The face detected also has a counter in order to experiment how the Model detects the faces in the captured frame.
 </details>
 
-#USAGE 
+# USAGE 
 
 The libraries used here include:
 
