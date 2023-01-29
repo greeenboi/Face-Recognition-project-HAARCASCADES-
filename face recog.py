@@ -45,11 +45,11 @@ cam.release()
 cv2.destroyAllWindows()
 
 
-img = cv2.imread(f'D:/coincent/ai/{img_name}.jpg')
+img = cv2.imread(f'./{img_name}.jpg')
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
   
 # Loading the haar-cascade xml classifier file for facial detection
-haar_cascade = cv2.CascadeClassifier('D:/coincent/ai/haarcascade_frontalface_default.xml')
+haar_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
   
 # Applying the face detection method on the grayscale image
 faces = haar_cascade.detectMultiScale(gray_img, 1.1, 9)
